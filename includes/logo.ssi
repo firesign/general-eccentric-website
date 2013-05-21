@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="span10 offset2">
+      <img id="logoatom" src="img/ge-logo-atom.png" alt="" />
+      <h1>General Eccentric</h1>
+      <p class="lead">&ldquo;Where progress is our most important problem&rdquo;</p>
+    </div>
+  </div>

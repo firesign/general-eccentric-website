@@ -1,0 +1,26 @@
+XBitHack on
+
+##AddType text/html .shtml
+##AddHandler server-parsed .shtml
+Options FollowSymLinks Includes 
+
+AddHandler server-parsed .html
+##AddHandler server-parsed .htm
+##AddHandler application/x-httpd-php .html .htm
+
+DirectoryIndex index.shtml index.html
+
+# 480 weeks
+<filesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+Header set Cache-Control "max-age=290304000, public"
+</FilesMatch>
+ 
+# 2 DAYS
+<filesMatch ".(xml|txt)$">
+Header set Cache-Control "max-age=172800, public, must-revalidate"
+</FilesMatch>
+ 
+# 2 HOURS
+<filesMatch ".(html|htm)$">
+Header set Cache-Control "max-age=7200, must-revalidate"
+</FilesMatch>

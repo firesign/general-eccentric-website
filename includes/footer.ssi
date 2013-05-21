@@ -1,0 +1,26 @@
+<div id="footer">
+   <div class="container">
+    <div class="row">
+        <div class="span1"><img src="img/CreativeCommonsLicense.png" alt="" /></div>
+              <div class="span4">
+                <small>This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/ca/">Creative Commons Attribution-Noncommercial-Share Alike 2.5 Canada License</a>. Permissions beyond the scope of this license may be possible. Drop me a line.
+                </small>
+              </div>
+              <div class="span1 offset3">
+                <a href="http://english-203114781509.spampoison.com"></a>
+                <img alt="spam poison" src="img/spam-poison-badge.png" width="80" height="15" />
+              </div>
+              <div class="span3">
+                <address>
+                  Michael B. LeBlanc<br />
+                  Associate Professor, NSCAD<br />
+                  Halifax, Nova Scotia, Canada<br />
+                </address>
+                <address>
+                  <a href="contact.html">Contact Form</a><br />
+                  <a href="http://blog.generaleccentric.net">Blog</a><br />
+                </address>
+              </div>
+      </div>
+    </div>
+  </div>
